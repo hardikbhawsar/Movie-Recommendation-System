@@ -35,9 +35,9 @@ def print_query_result(query_result, key_name):
 
 
 # Define paths
-csv_file_path = "dataset.csv"
-prolog_file_path = "dataset.pl"
-dataset_file_path = "dataset.pl"
+csv_file_path = "Dataset/dataset.csv"
+prolog_file_path = "Dataset/dataset.pl"
+dataset_file_path = "Dataset/dataset.pl"
 
 # Create Prolog facts and write to the dataset1.pl file
 create_prolog_facts(csv_file_path, prolog_file_path)
